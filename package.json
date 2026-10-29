@@ -1,0 +1,13 @@
+{
+  "name": "kaivo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KAIVO site: static build, output in dist/",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "gates": "node tools/gates.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "license": "MIT"
+}

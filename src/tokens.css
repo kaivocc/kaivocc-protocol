@@ -1,0 +1,18 @@
+/* The only file allowed to hold colour literals.
+   Palette provenance: k-means (k=5) over brand/LOGO KAIVO JPG JPG.jpg.jpeg and reference/KAIVO 1-6 + SAMPUL,
+   each centre snapped to the nearest real pixel; coordinates are x,y in the named source. */
+:root {
+  --paper: #F4F1EA;       /* logo jpg (0,0) rgb 244 241 234 */
+  --cream: #F1EEDF;       /* deck KAIVO 1 (0,0) rgb 241 238 223 */
+  --ink: #14130F;         /* logo jpg (1282,537) rgb 20 19 15 */
+  --ink-soft: #262C20;    /* deck KAIVO 2 (1117,331) rgb 38 44 32 */
+  --green: #296040;       /* logo jpg (1085,1010) rgb 41 96 64 */
+  --green-lit: #599265;   /* deck KAIVO 2 (1210,471) rgb 89 146 101 */
+  --sage: #9EAA94;        /* deck KAIVO 2 (1045,694) rgb 158 170 148 */
+  --mute: #7C7D77;        /* logo jpg (1250,537) rgb 124 125 119 */
+  --line: #BABAB2;        /* logo jpg (1158,628) rgb 186 186 178 */
+
+  --font-display: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-body: "Geist", "Inter", -apple-system, "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, Menlo, Consolas, monospace;
+}

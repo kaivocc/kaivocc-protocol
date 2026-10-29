@@ -1,0 +1,77 @@
+{
+  "records": {
+    "chain": {
+      "state": "stated",
+      "label": "Robinhood Chain",
+      "chainId": "0x1237",
+      "rpc": "https://rpc.mainnet.chain.robinhood.com",
+      "source": "client statement",
+      "scope": "batch-level",
+      "recordedOn": "2026-10-28"
+    },
+    "domain": {
+      "state": "stated",
+      "label": "Site",
+      "url": "https://kaivo.cc",
+      "source": "client statement",
+      "recordedOn": "2026-10-28"
+    },
+    "ca": {
+      "state": "absent",
+      "label": "Contract address",
+      "kind": "address",
+      "source": "client statement",
+      "recordedOn": "2026-10-28"
+    },
+    "x": {
+      "state": "absent",
+      "label": "X",
+      "kind": "social",
+      "source": "client statement",
+      "recordedOn": "2026-10-28"
+    },
+    "github": {
+      "state": "absent",
+      "label": "GitHub",
+      "kind": "social",
+      "source": "client statement",
+      "recordedOn": "2026-10-28"
+    },
+    "market": {
+      "state": "stated",
+      "label": "Market feed",
+      "url": "https://api.geckoterminal.com/api/v2/networks/robinhood_chain/trending_pools?include=base_token,quote_token&page=1",
+      "fallbackNetwork": "robinhood",
+      "pollMs": 60000,
+      "source": "client statement",
+      "recordedOn": "2026-10-28"
+    },
+    "models": {
+      "state": "stated",
+      "label": "Models",
+      "value": "400+",
+      "source": "brand banner",
+      "recordedOn": "2026-10-28"
+    },
+    "backing": {
+      "state": "stated",
+      "label": "Backing",
+      "value": "1:1 USDG",
+      "source": "brand banner",
+      "recordedOn": "2026-10-28"
+    },
+    "networks": {
+      "state": "stated",
+      "label": "Networks",
+      "items": ["Robinhood Chain", "BNB Chain", "Base"],
+      "source": "brand banner",
+      "recordedOn": "2026-10-28"
+    },
+    "fees": { "state": "absent", "label": "Routing fee", "source": "client statement", "recordedOn": "2026-10-28" },
+    "yield": { "state": "absent", "label": "Deposit yield", "source": "client statement", "recordedOn": "2026-10-28" },
+    "redeemFee": { "state": "absent", "label": "Redeem fee", "source": "client statement", "recordedOn": "2026-10-28" },
+    "cardCheckout": { "state": "absent", "label": "Card checkout", "source": "client statement", "recordedOn": "2026-10-28" },
+    "endpoint": { "state": "absent", "label": "API endpoint", "source": "client statement", "recordedOn": "2026-10-28" },
+    "plugins": { "state": "absent", "label": "Plugins", "source": "client statement", "recordedOn": "2026-10-28" }
+  }
+}
